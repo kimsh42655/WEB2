@@ -26,7 +26,7 @@ $(document).ready(function(){
         var liurl = _this.data("url");
         $(".notebook").html();
         $.ajax({
-            type: 'post',
+            type: 'get',
             url: liurl,
             dataType: 'html',
             success: function(data){
